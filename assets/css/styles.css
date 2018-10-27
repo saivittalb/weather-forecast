@@ -244,6 +244,7 @@ footer h2 a{
 }
 
 footer h2 i{
+	background:honeydew;
     font-style:normal;
     color: black;
 }
