@@ -33,10 +33,10 @@ section, footer, header{
 
 header h1{
     text-align:center;
-    font: normal 80px 'Lato', cursive;
-    color: #ff;
-    padding-top: 60px;
-    text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	font: normal 80px 'Montserrat', cursive;
+	color:#202b2f;
+	padding-top:60px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.1);
 }
 
 
@@ -50,6 +50,21 @@ header h1{
     height:407px;
     margin: 50px auto 25px;
     overflow:hidden;
+}
+
+#weather:before {
+	background: url("../img/preloader.gif") no-repeat center center #111;
+	border: 1px solid #000;
+	border-radius: 50% 50% 50% 50%;
+	box-shadow: 0 1px 2px #444;
+	content: "";
+	height: 44px;
+	left: 50%;
+	margin: -22px 0 0 -22px;
+	opacity: 0.7;
+	position: absolute;
+	top: 50%;
+	width: 44px;
 }
 
 #weather.error:before{
@@ -68,6 +83,13 @@ header h1{
 
 #weather.loaded:before{
     display:none;
+}
+
+#weather.loaded{
+	border-radius:3px;
+	background: black;
+	background:url('../img/weather_bg.jpg') no-repeat;
+	box-shadow:0 0 5px rgba(0,0,0,0.15);
 }
 
 #weather.first a.previous,
@@ -100,8 +122,6 @@ header h1{
 #scroller li img{
     display:block;
     margin: 35px auto 0;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 #scroller li .day{
@@ -145,8 +165,6 @@ header h1{
     opacity:0.6;
     overflow:hidden;
     text-indent:-99999px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .arrow:hover{
@@ -169,13 +187,13 @@ header h1{
 p.location{
     font-weight:bold;
     font-size:28px;
-    color:#ff;
+    color:#296c81;
     text-align:center;
     margin-bottom:80px;
 }
 
 p.location b{
-    color:#ff;
+    color:#569cb3;
 }
 
 
@@ -218,7 +236,7 @@ footer h2 a{
 
 footer h2 i{
     font-style:normal;
-    color:#888;
+    color:black;
 }
 
 #tzine-download{
