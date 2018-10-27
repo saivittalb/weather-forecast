@@ -20,7 +20,7 @@ $(function(){
         e.preventDefault();
 
         var inputValue = $('#myInput').val();
-        var weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?q=${inputValue}&appid=${"f9f2846e1a5bd45c3f79d57ab52250a4"}&callback=?`
+        var weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?q=${inputValue}&appid=${"969af83a8e45d14fbb321bb807c96254"}&callback=?`
 
         $.getJSON(weatherAPI, (response) => {
 
@@ -88,7 +88,7 @@ $(function(){
             
                 // If the cache is old or nonexistent, issue a new AJAX request
 
-                var weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${"f9f2846e1a5bd45c3f79d57ab52250a4"}&callback=?`
+                var weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${"969af83a8e45d14fbb321bb807c96254"}&callback=?`
 
                 $.getJSON(weatherAPI, function(response){
 
