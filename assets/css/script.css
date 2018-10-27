@@ -32,8 +32,8 @@ section, footer, header{
 
 header h1{
     text-align:center;
-    font: normal 80px 'Montserrat', cursive;
-    color: white;
+    font: normal 80px 'Lato', cursive;
+    color: black;
     padding-top: 60px;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
 }
