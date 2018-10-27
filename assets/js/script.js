@@ -2,7 +2,7 @@ $(function(){
 
     /* Configuration */
 
-    var DEG = 'c';           // c for celsius, f for fahrenheit
+    var DEG = 'c';          // c for celsius, f for fahrenheit
 
     var weatherDiv = $('#weather'),
         scroller = $('#scroller'),
