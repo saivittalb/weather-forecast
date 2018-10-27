@@ -208,7 +208,6 @@ p.location b{
 
 footer{
 	font-family:sans-serif;
-	background:honeydew;
     background-color: #080808;
     bottom: 0;
     box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
@@ -222,7 +221,6 @@ footer{
 footer h2{
     font-size: 14px;
     font-weight: normal;
-    background:honeydew;
     position: absolute;
     top:0;
     left: 50%;
@@ -238,13 +236,11 @@ footer h2{
 }
 
 footer h2 a{
-	background:honeydew;
     color: #EEEEEE !important;
     text-decoration:none !important;
 }
 
 footer h2 i{
-	background:honeydew;
     font-style:normal;
     color: black;
 }
