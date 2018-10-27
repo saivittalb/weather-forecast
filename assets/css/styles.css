@@ -22,11 +22,13 @@ body{
 }
 
 a, a:visited {
+	background:honeydew;
 	outline:none;
 	color:#1c4f64;
 }
 
 a:hover{
+	background:honeydew;
 	text-decoration:none;
 }
 
