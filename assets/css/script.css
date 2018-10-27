@@ -169,13 +169,13 @@ header h1{
 p.location{
     font-weight:bold;
     font-size:28px;
-    color:black;
+    color:#ff;
     text-align:center;
     margin-bottom:80px;
 }
 
 p.location b{
-    color:#bbbbbb;
+    color:#ff;
 }
 
 
@@ -266,8 +266,6 @@ footer h2 i{
     margin-top: 11px;
 }
 
-/* custom */
-
 @keyframes lds-ripple {
   0% {
     top: 96px;
@@ -334,7 +332,6 @@ footer h2 i{
   transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
 }
 
-/* CUSTOM 2 */
 form {
      display: flex;
   justify-content: center;
