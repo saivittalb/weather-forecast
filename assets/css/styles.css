@@ -32,6 +32,7 @@ a:hover{
 }
 
 section, footer, header{
+	background: honeydew;
 	display: block;
 }
 
